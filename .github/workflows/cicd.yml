@@ -42,7 +42,7 @@ jobs:
       - name: Build and push frontend image
         uses: docker/build-push-action@v5
         with:
-          context: ./frontend-react
+          context: ./code-lab1/frontend-react
           platforms: linux/amd64,linux/arm64
           push: true
           no-cache: true
