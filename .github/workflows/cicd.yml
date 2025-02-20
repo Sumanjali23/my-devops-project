@@ -68,7 +68,7 @@ jobs:
 
       - name: Copy docker-compose file
         run: |
-          scp docker-compose.yml ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:~/docker-compose.yml
+          scp code-lab1/docker-compose.yml ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }}:~/docker-compose.yml
 
       - name: Deploy to server
         run: |
