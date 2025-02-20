@@ -31,7 +31,7 @@ jobs:
       - name: Build and push backend image
         uses: docker/build-push-action@v5
         with:
-          context: ./backend-flask
+          context: ./code-lab1/backend-flask
           platforms: linux/amd64,linux/arm64
           push: true
           no-cache: true
