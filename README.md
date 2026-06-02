@@ -42,7 +42,7 @@ docker-compose up --build
 cd code-lab1
 # Follow lab instructions inside
 ```
-
+## 📁 Project Structure
 📦 my-devops-project
 ┣ 📂 .github/workflows/   # GitHub Actions CI/CD pipelines
 ┣ 📂 .docker/             # Docker config files
@@ -54,5 +54,18 @@ cd code-lab1
 
 ## 🔄 CI/CD Pipeline Overview
 ---
+Push to main
+↓
+GitHub Actions Triggered
+↓
+Build Docker Images
+↓
+Run Tests
+↓
+Deploy Services
 
-## 📁 Project Structure
+---
+
+<p align="center">Made with 🚀 by <a href="https://github.com/Sumanjali23">Grace Sumanjali Pagolu</a></p>
+
+
